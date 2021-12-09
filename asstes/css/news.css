@@ -1,0 +1,63 @@
+.newsMainBackground {
+    background: url("../Imgs/news/newsMainBackground.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 20px;
+    height: 100vh;
+}
+
+.newsVerticallyCenter {
+    position: absolute;
+    -ms-transform: translate(0%, 45%);
+    transform: translate(0%, 45%);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.newsVerticalContent h1 {
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.newsSection02 {
+    background: #fff;
+    padding: 50px 10px;
+    margin-top: -200px;
+    display: block;
+    box-sizing: border-box;
+    clip-path: ellipse(100% 100% at 50% 100%);
+    width: 100%;
+}
+
+@media only screen and (max-width: 991px) and (min-width: 320px){
+
+    .newsSection02{
+        clip-path: ellipse(250% 100% at 50% 100%) !important;
+    }
+
+    .newsVerticalContent h1 {
+        font-size: 1.5rem !important;
+    }
+
+}
+
+@media only screen and (max-width: 1298px) and (min-width: 992px){
+    .newsSection02{
+        clip-path: ellipse(130% 100% at 50% 100%) !important;
+    }
+    .newsVerticalContent h1 {
+        font-size: 1.5rem !important;
+        font-weight: 800 !important;
+    }
+}
+
+@media only screen and (max-width: 1400px) and (min-width: 1299px) {
+    .newsVerticalContent h1 {
+        font-size: 2rem !important;
+        font-weight: 800 !important;
+    }
+}

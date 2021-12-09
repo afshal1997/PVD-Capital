@@ -1,0 +1,132 @@
+.active {
+    position: relative;
+}
+
+.innerTabsButton.active,
+.tabsButton.active {
+    color: #ffc107 !important;
+    transition: 1s;
+}
+
+.innerTabsButton {
+    border: none;
+    background: transparent;
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #8d8b8b;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
+.innerTabsButton.active::before,
+.tabsButton.active::before {
+    content: "\f192";
+    font-family: "Font Awesome 5 Free";
+    font-size: 0.7rem;
+    display: inline-block;
+    position: relative;
+    left: -12px;
+    top: -3px;
+}
+
+.portfolioMainBanner {
+    background: url("../Imgs/Portfolio/portfolioSection02Bg.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100%;
+}
+
+.portfolioMainBannerImg {
+    width: 100%;
+    height: 100%;
+    max-height: 80vh;
+}
+
+.mainBannerContent h1 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 3.5rem;
+    margin-top: -70px;
+}
+
+.tabsButton {
+    border: none;
+    background: transparent;
+    color: #8d8b8b;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-right: 40px;
+}
+
+img.tabsCardImgs {
+    border-radius: 50%;
+    width: 100%;
+    max-width: 270px;
+    display: block;
+    margin: auto;
+    border: 1px solid #ffc107;
+    border-bottom: none;
+    padding: 25px 25px 0 25px;
+}
+
+ul.nav.nav-pills {
+    width: 100%;
+    max-width: 75%;
+}
+
+img.logoImg {
+    width: 100%;
+    max-width: 150px;
+    margin: auto;
+    display: block;
+    filter: invert(0);
+    height: 100%;
+    max-height: 30px;
+    object-fit: contain;
+}
+
+.tabCardsContent span {
+    color: #ffc107;
+}
+
+.btnSeeMore {
+    background: #ffc107;
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: 500;
+    position: absolute;
+    bottom: 0;
+    right: 25%;
+}
+
+.btnSeeMore span {
+    display: none;
+    margin-right: -50px;
+    transition: 2s;
+}
+
+.btnSeeMore:hover {
+    background: #000;
+    color: #fff;
+    transition: 1s;
+}
+
+.btnSeeMore:hover i {
+    color: #ffc107;
+    transition: 1s;
+}
+
+.btnSeeMore:hover span {
+    margin-right: 0;
+    display: inline-block;
+    transition: 1.3s;
+}
+
+.card {
+    border: none !important;
+}
