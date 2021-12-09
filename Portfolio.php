@@ -6,7 +6,7 @@
         <img class="portfolioMainBannerImg" src="asstes/Imgs/Portfolio/portfolioMainBg.jpg" alt="">
         <div class="container">
             <div class="mainBannerContent">
-                <div class="col-lg-9 m-auto">
+                <div class="col-lg-9 m-auto" data-aos="flip-up" data-aos-duration="1500">
                     <h1>Banking on Transformative Champions</h1>
                 </div>
             </div>
@@ -66,7 +66,7 @@
                     </ul>
                     <div class="tab-pane fade show active mt-5 pt-5" id="box01-1" role="tabpanel" aria-labelledby="box01">
                         <div class="row">
-                            <div class="col-lg-3 m-auto">
+                            <div class="col-lg-3 m-auto" data-aos="fade-up">
                                 <div class="card bg-transparent">
                                     <div class="card-title position-relative">
                                         <img class="tabsCardImgs" src="asstes/Imgs/sliderImgs/img01.jpg" alt="">
@@ -85,7 +85,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-3 m-auto">
+                            <div class="col-lg-3 m-auto" data-aos="fade-up">
                                 <div class="card bg-transparent">
                                     <div class="card-title position-relative">
                                         <img class="tabsCardImgs" src="asstes/Imgs/sliderImgs/img02.jpg" alt="">
@@ -104,7 +104,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-3 m-auto">
+                            <div class="col-lg-3 m-auto" data-aos="fade-up">
                                 <div class="card bg-transparent">
                                     <div class="card-title position-relative">
                                         <img class="tabsCardImgs" src="asstes/Imgs/sliderImgs/img03.jpg" alt="">
@@ -125,7 +125,7 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-lg-3 m-auto">
+                            <div class="col-lg-3 m-auto" data-aos="fade-up">
                                 <div class="card bg-transparent">
                                     <div class="card-title position-relative">
                                         <img class="tabsCardImgs" src="asstes/Imgs/sliderImgs/img04.jpg" alt="">
@@ -144,7 +144,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-3 m-auto">
+                            <div class="col-lg-3 m-auto" data-aos="fade-up">
                                 <div class="card bg-transparent">
                                     <div class="card-title position-relative">
                                         <img class="tabsCardImgs" src="asstes/Imgs/sliderImgs/img05.jpg" alt="">
@@ -163,7 +163,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-3 m-auto">
+                            <div class="col-lg-3 m-auto" data-aos="fade-up">
                                 <div class="card bg-transparent">
                                     <div class="card-title position-relative">
                                         <img class="tabsCardImgs" src="asstes/Imgs/sliderImgs/img01.jpg" alt="">
@@ -186,7 +186,7 @@
                     </div>
                     <div class="tab-pane fade mt-5 pt-5" id="box02-2" role="tabpanel" aria-labelledby="box02-2-tab">
                         <div class="row">
-                            <div class="col-lg-3 m-auto">
+                            <div class="col-lg-3 m-auto" data-aos="fade-up">
                                 <div class="card bg-transparent">
                                     <div class="card-title position-relative">
                                         <img class="tabsCardImgs" src="asstes/Imgs/sliderImgs/img04.jpg" alt="">
@@ -205,7 +205,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-3 m-auto">
+                            <div class="col-lg-3 m-auto" data-aos="fade-up">
                                 <div class="card bg-transparent">
                                     <div class="card-title position-relative">
                                         <img class="tabsCardImgs" src="asstes/Imgs/sliderImgs/img05.jpg" alt="">
@@ -224,7 +224,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-3 m-auto">
+                            <div class="col-lg-3 m-auto" data-aos="fade-up">
                                 <div class="card bg-transparent">
                                     <div class="card-title position-relative">
                                         <img class="tabsCardImgs" src="asstes/Imgs/sliderImgs/img01.jpg" alt="">
@@ -247,7 +247,7 @@
                     </div>
                     <div class="tab-pane fade mt-5 pt-5" id="box03-3" role="tabpanel" aria-labelledby="box03-3-tab">
                         <div class="row">
-                            <div class="col-lg-3 m-auto">
+                            <div class="col-lg-3 m-auto" data-aos="fade-up">
                                 <div class="card bg-transparent">
                                     <div class="card-title position-relative">
                                         <img class="tabsCardImgs" src="asstes/Imgs/sliderImgs/img04.jpg" alt="">
@@ -266,7 +266,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-3 m-auto">
+                            <div class="col-lg-3 m-auto" data-aos="fade-up">
                                 <div class="card bg-transparent">
                                     <div class="card-title position-relative">
                                         <img class="tabsCardImgs" src="asstes/Imgs/sliderImgs/img05.jpg" alt="">
@@ -285,7 +285,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-3 m-auto">
+                            <div class="col-lg-3 m-auto" data-aos="fade-up">
                                 <div class="card bg-transparent">
                                     <div class="card-title position-relative">
                                         <img class="tabsCardImgs" src="asstes/Imgs/sliderImgs/img01.jpg" alt="">
@@ -308,7 +308,7 @@
                     </div>
                     <div class="tab-pane fade mt-5 pt-5" id="box04-4" role="tabpanel" aria-labelledby="box04-4-tab">
                         <div class="row">
-                            <div class="col-lg-3 m-auto">
+                            <div class="col-lg-3 m-auto" data-aos="fade-up">
                                 <div class="card bg-transparent">
                                     <div class="card-title position-relative">
                                         <img class="tabsCardImgs" src="asstes/Imgs/sliderImgs/img04.jpg" alt="">
@@ -327,7 +327,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-3 m-auto">
+                            <div class="col-lg-3 m-auto" data-aos="fade-up">
                                 <div class="card bg-transparent">
                                     <div class="card-title position-relative">
                                         <img class="tabsCardImgs" src="asstes/Imgs/sliderImgs/img05.jpg" alt="">
@@ -346,7 +346,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-3 m-auto">
+                            <div class="col-lg-3 m-auto" data-aos="fade-up">
                                 <div class="card bg-transparent">
                                     <div class="card-title position-relative">
                                         <img class="tabsCardImgs" src="asstes/Imgs/sliderImgs/img01.jpg" alt="">
@@ -369,7 +369,7 @@
                     </div>
                     <div class="tab-pane fade mt-5 pt-5" id="box05-5" role="tabpanel" aria-labelledby="box05-5-tab">
                         <div class="row">
-                            <div class="col-lg-3 m-auto">
+                            <div class="col-lg-3 m-auto" data-aos="fade-up">
                                 <div class="card bg-transparent">
                                     <div class="card-title position-relative">
                                         <img class="tabsCardImgs" src="asstes/Imgs/sliderImgs/img04.jpg" alt="">
@@ -388,7 +388,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-3 m-auto">
+                            <div class="col-lg-3 m-auto" data-aos="fade-up">
                                 <div class="card bg-transparent">
                                     <div class="card-title position-relative">
                                         <img class="tabsCardImgs" src="asstes/Imgs/sliderImgs/img05.jpg" alt="">
@@ -407,7 +407,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-3 m-auto">
+                            <div class="col-lg-3 m-auto" data-aos="fade-up">
                                 <div class="card bg-transparent">
                                     <div class="card-title position-relative">
                                         <img class="tabsCardImgs" src="asstes/Imgs/sliderImgs/img01.jpg" alt="">
@@ -430,7 +430,7 @@
                     </div>
                     <div class="tab-pane fade mt-5 pt-5" id="box06-6" role="tabpanel" aria-labelledby="box06-6-tab">
                         <div class="row">
-                            <div class="col-lg-3 m-auto">
+                            <div class="col-lg-3 m-auto" data-aos="fade-up">
                                 <div class="card bg-transparent">
                                     <div class="card-title position-relative">
                                         <img class="tabsCardImgs" src="asstes/Imgs/sliderImgs/img05.jpg" alt="">
@@ -449,7 +449,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-3 m-auto">
+                            <div class="col-lg-3 m-auto" data-aos="fade-up">
                                 <div class="card bg-transparent">
                                     <div class="card-title position-relative">
                                         <img class="tabsCardImgs" src="asstes/Imgs/sliderImgs/img01.jpg" alt="">
@@ -468,7 +468,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-3 m-auto">
+                            <div class="col-lg-3 m-auto" data-aos="fade-up">
                                 <div class="card bg-transparent">
                                     <div class="card-title position-relative">
                                         <img class="tabsCardImgs" src="asstes/Imgs/sliderImgs/img04.jpg" alt="">
@@ -491,7 +491,7 @@
                     </div>
                     <div class="tab-pane fade mt-5 pt-5" id="box07-7" role="tabpanel" aria-labelledby="box07-7-tab">
                         <div class="row">
-                            <div class="col-lg-3 m-auto">
+                            <div class="col-lg-3 m-auto" data-aos="fade-up">
                                 <div class="card bg-transparent">
                                     <div class="card-title position-relative">
                                         <img class="tabsCardImgs" src="asstes/Imgs/sliderImgs/img01.jpg" alt="">
@@ -510,7 +510,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-3 m-auto">
+                            <div class="col-lg-3 m-auto" data-aos="fade-up">
                                 <div class="card bg-transparent">
                                     <div class="card-title position-relative">
                                         <img class="tabsCardImgs" src="asstes/Imgs/sliderImgs/img04.jpg" alt="">
@@ -529,7 +529,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-3 m-auto">
+                            <div class="col-lg-3 m-auto" data-aos="fade-up">
                                 <div class="card bg-transparent">
                                     <div class="card-title position-relative">
                                         <img class="tabsCardImgs" src="asstes/Imgs/sliderImgs/img05.jpg" alt="">
@@ -552,7 +552,7 @@
                     </div>
                     <div class="tab-pane fade mt-5 pt-5" id="box08-8" role="tabpanel" aria-labelledby="box08-8-tab">
                         <div class="row">
-                            <div class="col-lg-3 m-auto">
+                            <div class="col-lg-3 m-auto" data-aos="fade-up">
                                 <div class="card bg-transparent">
                                     <div class="card-title position-relative">
                                         <img class="tabsCardImgs" src="asstes/Imgs/sliderImgs/img01.jpg" alt="">
@@ -571,7 +571,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-3 m-auto">
+                            <div class="col-lg-3 m-auto" data-aos="fade-up">
                                 <div class="card bg-transparent">
                                     <div class="card-title position-relative">
                                         <img class="tabsCardImgs" src="asstes/Imgs/sliderImgs/img04.jpg" alt="">
@@ -590,7 +590,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-3 m-auto">
+                            <div class="col-lg-3 m-auto" data-aos="fade-up">
                                 <div class="card bg-transparent">
                                     <div class="card-title position-relative">
                                         <img class="tabsCardImgs" src="asstes/Imgs/sliderImgs/img05.jpg" alt="">

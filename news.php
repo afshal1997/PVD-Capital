@@ -6,21 +6,21 @@
         <div class="container">
             <div class="newsVerticallyCenter">
                 <div class="col-12 col-lg-4 m-auto text-center text-light">
-                    <div class="newsVerticalContent">
+                    <div class="newsVerticalContent" data-aos="flip-up">
                         <h1>Follow the latest from PVD Capital</h1>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="newsSection02">
+    <section class="newsSection02" data-aos="flip-up" data-aos-duration="1500">
         <div class="container">
             <div class="col-lg-6 mb-5 m-auto text-center">
                 <h5><b><i class="fab fa-medium-m me-3"></i> From Medium</b></h5>
             </div>
             <div class="row">
                 <div class="col-lg-4 mb-3 m-auto">
-                    <div class="card newsCards">
+                    <div class="card newsCards" data-aos="fade-in">
                         <div class="card-body">
                             <div class="card-title">
                                 <h6 class="mb-0 textTitle"><b>Oct 5, 2021</b> <span class=""><b>Portfolio</b></span></h6>
@@ -33,7 +33,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 mb-3 m-auto">
-                    <div class="card newsCards">
+                    <div class="card newsCards" data-aos="fade-in">
                         <div class="card-body">
                             <div class="card-title">
                                 <h6 class="mb-0 textTitle"><b>Oct 5, 2021</b> <span class=""><b>Portfolio</b></span></h6>
@@ -46,7 +46,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 mb-3 m-auto">
-                    <div class="card newsCards">
+                    <div class="card newsCards" data-aos="fade-in">
                         <div class="card-body">
                             <div class="card-title">
                                 <h6 class="mb-0 textTitle"><b>Oct 5, 2021</b> <span class=""><b>Portfolio</b></span></h6>
@@ -59,7 +59,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 mb-3 m-auto">
-                    <div class="card newsCards">
+                    <div class="card newsCards" data-aos="fade-in">
                         <div class="card-body">
                             <div class="card-title">
                                 <h6 class="mb-0 textTitle"><b>Oct 5, 2021</b> <span class=""><b>Portfolio</b></span></h6>
@@ -72,7 +72,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 mb-3 m-auto">
-                    <div class="card newsCards">
+                    <div class="card newsCards" data-aos="fade-in">
                         <div class="card-body">
                             <div class="card-title">
                                 <h6 class="mb-0 textTitle"><b>Oct 5, 2021</b> <span class=""><b>Portfolio</b></span></h6>
@@ -85,7 +85,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 mb-3 m-auto">
-                    <div class="card newsCards">
+                    <div class="card newsCards" data-aos="fade-in">
                         <div class="card-body">
                             <div class="card-title">
                                 <h6 class="mb-0 textTitle"><b>Oct 5, 2021</b> <span class=""><b>Portfolio</b></span></h6>
@@ -98,7 +98,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 mb-3 m-auto">
-                    <div class="card newsCards">
+                    <div class="card newsCards" data-aos="fade-in">
                         <div class="card-body">
                             <div class="card-title">
                                 <h6 class="mb-0 textTitle"><b>Oct 5, 2021</b> <span class=""><b>Portfolio</b></span></h6>
@@ -111,7 +111,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 mb-3 m-auto">
-                    <div class="card newsCards">
+                    <div class="card newsCards" data-aos="fade-in">
                         <div class="card-body">
                             <div class="card-title">
                                 <h6 class="mb-0 textTitle"><b>Oct 5, 2021</b> <span class=""><b>Portfolio</b></span></h6>
@@ -124,7 +124,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 mb-3 m-auto">
-                    <div class="card newsCards">
+                    <div class="card newsCards" data-aos="fade-in">
                         <div class="card-body">
                             <div class="card-title">
                                 <h6 class="mb-0 textTitle"><b>Oct 5, 2021</b> <span class=""><b>Portfolio</b></span></h6>
@@ -137,7 +137,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 mb-3 m-auto">
-                    <div class="card newsCards">
+                    <div class="card newsCards" data-aos="fade-in">
                         <div class="card-body">
                             <div class="card-title">
                                 <h6 class="mb-0 textTitle"><b>Oct 5, 2021</b> <span class=""><b>Portfolio</b></span></h6>
@@ -150,7 +150,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 mb-3 m-auto">
-                    <div class="card newsCards">
+                    <div class="card newsCards" data-aos="fade-in">
                         <div class="card-body">
                             <div class="card-title">
                                 <h6 class="mb-0 textTitle"><b>Oct 5, 2021</b> <span class=""><b>Portfolio</b></span></h6>
@@ -163,7 +163,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 mb-3 m-auto">
-                    <div class="card newsCards">
+                    <div class="card newsCards" data-aos="fade-in">
                         <div class="card-body">
                             <div class="card-title">
                                 <h6 class="mb-0 textTitle"><b>Oct 5, 2021</b> <span class=""><b>Portfolio</b></span></h6>
@@ -176,7 +176,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 mb-3 m-auto">
-                    <div class="card newsCards">
+                    <div class="card newsCards" data-aos="fade-in">
                         <div class="card-body">
                             <div class="card-title">
                                 <h6 class="mb-0 textTitle"><b>Oct 5, 2021</b> <span class=""><b>Portfolio</b></span></h6>
@@ -189,7 +189,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 mb-3 m-auto">
-                    <div class="card newsCards">
+                    <div class="card newsCards" data-aos="fade-in">
                         <div class="card-body">
                             <div class="card-title">
                                 <h6 class="mb-0 textTitle"><b>Oct 5, 2021</b> <span class=""><b>Portfolio</b></span></h6>
@@ -202,7 +202,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 mb-3 m-auto">
-                    <div class="card newsCards">
+                    <div class="card newsCards" data-aos="fade-in">
                         <div class="card-body">
                             <div class="card-title">
                                 <h6 class="mb-0 textTitle"><b>Oct 5, 2021</b> <span class=""><b>Portfolio</b></span></h6>
@@ -215,7 +215,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 mb-3 m-auto">
-                    <div class="card newsCards">
+                    <div class="card newsCards" data-aos="fade-in">
                         <div class="card-body">
                             <div class="card-title">
                                 <h6 class="mb-0 textTitle"><b>Oct 5, 2021</b> <span class=""><b>Portfolio</b></span></h6>
@@ -228,7 +228,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 mb-3 m-auto">
-                    <div class="card newsCards">
+                    <div class="card newsCards" data-aos="fade-in">
                         <div class="card-body">
                             <div class="card-title">
                                 <h6 class="mb-0 textTitle"><b>Oct 5, 2021</b> <span class=""><b>Portfolio</b></span></h6>
@@ -241,7 +241,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 mb-3 m-auto">
-                    <div class="card newsCards">
+                    <div class="card newsCards" data-aos="fade-in">
                         <div class="card-body">
                             <div class="card-title">
                                 <h6 class="mb-0 textTitle"><b>Oct 5, 2021</b> <span class=""><b>Portfolio</b></span></h6>
