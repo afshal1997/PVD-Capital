@@ -3,7 +3,7 @@
         <div class="col-lg-4 m-auto subscribe text-center text-light pt-4">
             <h5><i class="fas fa-envelope"></i></h5>
             <h1>Subscribe to our newsletter</h1>
-            <a class="btnViewMore" href="javascript:void(0)"><i class="fas fa-long-arrow-alt-right ms-0"></i></a>
+            <a class="btnViewMore" href="newsletter.php"><i class="fas fa-long-arrow-alt-right ms-0"></i></a>
         </div>
         <div class="row mt-5">
             <div class="col-lg-2 text-center text-light m-auto">

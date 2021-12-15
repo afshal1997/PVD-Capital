@@ -16,7 +16,7 @@
             <div class="row">
                 <div class="col-lg-6 m-auto mt-5 mb-5">
                     <h3><b>Receive BlackFin Tech's posts straight into your inbox</b></h3>
-                    <div class="card mt-5">
+                    <div class="card shadow mt-5">
                         <form action="javascript:void(0)">
                             <div class="card-body p-0">
                                 <div class="card-title p-3 mb-0 newsletter">
