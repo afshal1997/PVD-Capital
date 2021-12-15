@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.newsletterForm{
+    background: #eeeeee; 
+    height: 100vh;
+}
+
+.newsletter {
+    background: #e9ac2e;
+    font-weight: 500;
+}
+
+.marketing-permissions {
+    background: rgb(251, 238, 213);
+}
+
+.marketing-permissions {
+    background: rgb(251, 238, 213);
+    color: #5d5d5d;
+}
+
+@media screen and (max-width: 991px){
+    .newsletterForm{
+        height: 100%;
+    }
+}
