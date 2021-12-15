@@ -6,7 +6,7 @@
                 <span class="navbar-toggler-icon" onclick=openNavBar()><i class="fas fa-bars text-light m-auto"></i></1span>
             </button>
             <div class="collapse navbar-collapse " id="navbarTogglerDemo01">
-                <ul class="navbar-nav m-auto mb-2 mb-lg-0 text-center mainNav">
+                <ul class="navbar-nav m-auto me-0 mb-2 mb-lg-0 text-center mainNav">
                     <li class="nav-item">
                         <a class="nav-link" href="Portfolio.php">Portfolio</a>
                     </li>

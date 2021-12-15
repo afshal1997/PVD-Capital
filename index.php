@@ -60,10 +60,10 @@
             <div class="row">
                 <div class="col-lg-5 mt-5 mb-5 position-relative">
                     <div class="earthImg">
-                        <img src="asstes/Imgs/earthImg.png" alt="">
+                        <img src="asstes/Imgs/earthImg02.png" alt="">
                     </div>
                 </div>
-                <div class="col-lg-4 mb-5 mt-5 pt-5 pb-5 m-auto text-center side-text-bbg">
+                <div class="col-lg-5 mb-5 mt-5 pt-5 pb-5 m-auto ms-0 text-center side-text-bbg">
                     <div class="haimHeading">
                         <h6><b>Our portfolio</b></h6>
                         <h1>
