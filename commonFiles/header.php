@@ -11,7 +11,7 @@
                         <a class="nav-link" href="Portfolio.php">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="javascript:void(0)">Team</a>
+                        <a class="nav-link" href="team.php">Team</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="news.php">News</a>

@@ -1,9 +1,18 @@
 <?php include 'commonFiles/allHeaderLinks.php' ?>
 <link rel="stylesheet" href="./asstes/css/portfolio.css">
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
 <?php include 'commonFiles/header.php' ?>
 <main id="">
     <section class="portfolioMainBanner">
         <img class="portfolioMainBannerImg" src="asstes/Imgs/Portfolio/portfolioMainBg.jpg" alt="">
+        <div class="col-lg-12 position-relative">
+            <div class="circle-container">
+                <div class="circle circle-1"></div>
+                <div class="circle circle-2"></div>
+                <div class="circle circle-3"></div>
+            </div>
+        </div>
         <div class="container">
             <div class="mainBannerContent">
                 <div class="col-lg-9 m-auto" data-aos="flip-up" data-aos-duration="1500">
@@ -13,29 +22,37 @@
         </div>
         <div class="container-fluid">
             <div class="col-11 m-auto me-0">
-                <ul class="nav nav-pills mb-3 m-auto me-0 mt-5" id="pills1-tab" role="tablist">
-                    <li class="nav-item" role="presentation">
+                <div class="tabRowOne nav nav-pills mb-3 m-auto me-0 mt-5" id="pills1-tab" role="tablist">
+                    <div class="nav-item" role="presentation">
                         <button class="tabsButton active" id="all-tab" data-bs-toggle="pill" data-bs-target="#all" type="button" role="tab" aria-controls="all" aria-selected="true">All</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
+
+                    </div>
+
+                    <div class="nav-item" role="presentation">
                         <button class="tabsButton" id="Payments-tab" data-bs-toggle="pill" data-bs-target="#Payments" type="button" role="tab" aria-controls="Payments" aria-selected="false">Payments</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
+
+                    </div>
+                    <div class="nav-item" role="presentation">
                         <button class="tabsButton" id="Banktech-tab" data-bs-toggle="pill" data-bs-target="#Banktech" type="button" role="tab" aria-controls="Banktech" aria-selected="false">Banktech</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
+
+                    </div>
+                    <div class="nav-item" role="presentation">
                         <button class="tabsButton" id="Investment-Banking-tab" data-bs-toggle="pill" data-bs-target="#Investment-Banking" type="button" role="tab" aria-controls="Investment-Banking" aria-selected="false">Investment Banking</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
+
+                    </div>
+                    <div class="nav-item" role="presentation">
                         <button class="tabsButton" id="Regtech-tab" data-bs-toggle="pill" data-bs-target="#Regtech" type="button" role="tab" aria-controls="Regtech" aria-selected="false">Regtech</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
+
+                    </div>
+                    <div class="nav-item" role="presentation">
                         <button class="tabsButton" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Wealth Management</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
+
+                    </div>
+                    <div class="nav-item" role="presentation">
                         <button class="tabsButton" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Insurtech</button>
-                    </li>
-                </ul>
+
+                    </div>
+                </div>
                 <hr class="bg-light w-75 m-auto me-0">
                 <div class="tab-content" id="pills-tabContent">
                     <ul class="nav nav-pills mb-3 m-auto me-0" id="pills2-tab" role="tablist">

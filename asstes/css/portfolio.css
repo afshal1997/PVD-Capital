@@ -6,6 +6,7 @@
 .tabsButton.active {
     color: #ffc107 !important;
     transition: 1s;
+    z-index: 99;
 }
 
 .innerTabsButton {
@@ -60,6 +61,7 @@
     font-size: 1.4rem;
     font-weight: 600;
     margin-right: 40px;
+    z-index: 99;
 }
 
 img.tabsCardImgs {
@@ -130,3 +132,4 @@ img.logoImg {
 .card {
     border: none !important;
 }
+

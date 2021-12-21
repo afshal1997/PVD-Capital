@@ -147,101 +147,113 @@ $(function () {
     });
 });
 
-var scene = new THREE.Scene();
+// var scene = new THREE.Scene();
 
-document.addEventListener('mousemove', onMouseMove, false);
-var camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 500);
-var mouseX;
-var mouseY;
+// document.addEventListener('mousemove', onMouseMove, false);
+// var camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 500);
+// var mouseX;
+// var mouseY;
 
-var renderer = new THREE.WebGLRenderer({ alpha: true });
+// var renderer = new THREE.WebGLRenderer({ alpha: true });
 
-renderer.setSize(window.innerWidth, window.innerHeight);
-document.body.appendChild(renderer.domElement);
+// renderer.setSize(window.innerWidth, window.innerHeight);
+// document.body.appendChild(renderer.domElement);
 
-window.addEventListener("resize", function () {
-    camera.aspect = window.innerWidth / window.innerHeight;
-    camera.updateProjectionMatrix();
-    renderer.setSize(window.innerWidth, window.innerHeight);
+// window.addEventListener("resize", function () {
+//     camera.aspect = window.innerWidth / window.innerHeight;
+//     camera.updateProjectionMatrix();
+//     renderer.setSize(window.innerWidth, window.innerHeight);
+// });
+
+// var distance = Math.min(300, window.innerWidth / 1);
+// var geometry = new THREE.Geometry();
+
+// for (var i = 0; i < 100; i++) {
+
+//     var vertex = new THREE.Vector3();
+
+//     var theta = THREE.Math.randFloatSpread(360);
+//     var phi = THREE.Math.randFloatSpread(360);
+
+//     vertex.x = distance * Math.sin(theta) * Math.cos(phi);
+//     vertex.y = distance * Math.sin(theta) * Math.sin(phi);
+//     vertex.z = distance * Math.cos(theta);
+
+//     geometry.vertices.push(vertex);
+// }
+// var particles = new THREE.Points(geometry, new THREE.PointsMaterial({
+//     color: 0xe4e0d5,
+//     size: 3
+// }));
+// particles.boundingSphere = 50;
+
+
+// var renderingParent = new THREE.Group();
+// renderingParent.add(particles);
+
+// var resizeContainer = new THREE.Group();
+// resizeContainer.add(renderingParent);
+// scene.add(resizeContainer);
+
+// camera.position.z = 200;
+
+// var animate = function () {
+//     requestAnimationFrame(animate);
+//     renderer.render(scene, camera);
+// };
+// var myTween;
+
+// function onMouseMove(event) {
+//     if (myTween)
+//         myTween.kill();
+
+//     mouseX = (event.clientX / window.innerWidth) * 2 - 1;
+//     mouseY = -(event.clientY / window.innerHeight) * 2 + 1;
+//     myTween = gsap.to(particles.rotation, {
+//         duration: 0.1,
+//         x: mouseY * -1,
+//         y: mouseX
+//     });
+// }
+// animate();
+
+// // Scaling animation
+// var animProps = {
+//     scale: 1,
+//     xRot: 0,
+//     yRot: 0
+// };
+// gsap.to(animProps, {
+//     duration: 500,
+//     scale: 1.3,
+//     repeat: -1,
+//     yoyo: true,
+//     ease: "sine",
+//     onUpdate: function () {
+//         renderingParent.scale.set(animProps.scale, animProps.scale, animProps.scale);
+//     }
+// });
+
+// gsap.to(animProps, {
+//     duration: 500,
+//     xRot: Math.PI * 2,
+//     yRot: Math.PI * 4,
+//     repeat: -1,
+//     yoyo: true,
+//     ease: "none",
+//     onUpdate: function () {
+//         renderingParent.rotation.set(animProps.xRot, animProps.yRot, 0);
+//     }
+// });
+
+const el = document.querySelector("#worldMapImg");
+
+el.addEventListener("mousemove", (e) => {
+    el.style.setProperty('--x', -e.offsetX + "px");
 });
 
-var distance = Math.min(300, window.innerWidth / 1);
-var geometry = new THREE.Geometry();
+const er = document.querySelector("#worldMapImg05");
 
-for (var i = 0; i < 100; i++) {
-
-    var vertex = new THREE.Vector3();
-
-    var theta = THREE.Math.randFloatSpread(360);
-    var phi = THREE.Math.randFloatSpread(360);
-
-    vertex.x = distance * Math.sin(theta) * Math.cos(phi);
-    vertex.y = distance * Math.sin(theta) * Math.sin(phi);
-    vertex.z = distance * Math.cos(theta);
-
-    geometry.vertices.push(vertex);
-}
-var particles = new THREE.Points(geometry, new THREE.PointsMaterial({
-    color: 0xe4e0d5,
-    size: 3
-}));
-particles.boundingSphere = 50;
-
-
-var renderingParent = new THREE.Group();
-renderingParent.add(particles);
-
-var resizeContainer = new THREE.Group();
-resizeContainer.add(renderingParent);
-scene.add(resizeContainer);
-
-camera.position.z = 200;
-
-var animate = function () {
-    requestAnimationFrame(animate);
-    renderer.render(scene, camera);
-};
-var myTween;
-
-function onMouseMove(event) {
-    if (myTween)
-        myTween.kill();
-
-    mouseX = (event.clientX / window.innerWidth) * 2 - 1;
-    mouseY = -(event.clientY / window.innerHeight) * 2 + 1;
-    myTween = gsap.to(particles.rotation, {
-        duration: 0.1,
-        x: mouseY * -1,
-        y: mouseX
-    });
-}
-animate();
-
-// Scaling animation
-var animProps = {
-    scale: 1,
-    xRot: 0,
-    yRot: 0
-};
-gsap.to(animProps, {
-    duration: 500,
-    scale: 1.3,
-    repeat: -1,
-    yoyo: true,
-    ease: "sine",
-    onUpdate: function () {
-        renderingParent.scale.set(animProps.scale, animProps.scale, animProps.scale);
-    }
-});
-
-gsap.to(animProps, {
-    duration: 500,
-    xRot: Math.PI * 2,
-    yRot: Math.PI * 4,
-    repeat: -1,
-    yoyo: true,
-    ease: "none",
-    onUpdate: function () {
-        renderingParent.rotation.set(animProps.xRot, animProps.yRot, 0);
-    }
+er.addEventListener("mousemove", (e) => {
+    er.style.setProperty('--x', -e.offsetX + "px");
 });

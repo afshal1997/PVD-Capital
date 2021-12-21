@@ -10,6 +10,13 @@
                         <h1>Follow the latest from PVD Capital</h1>
                     </div>
                 </div>
+                <div class="col-lg-12">
+                    <div class="circle-container w-100">
+                        <div class="circle circle-1"></div>
+                        <div class="circle circle-2"></div>
+                        <div class="circle circle-3"></div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

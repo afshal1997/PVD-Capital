@@ -7,6 +7,15 @@
     height: 100vh;
 }
 
+.teamMainBackground {
+    background: url("../Imgs/team/teamMainBanner.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 20px;
+    height: 100vh;
+}
+
 .newsVerticallyCenter {
     position: absolute;
     -ms-transform: translate(0%, 45%);

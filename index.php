@@ -1,5 +1,5 @@
-<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r122/three.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r122/three.min.js"></script> -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script> -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
 <?php include 'commonFiles/allHeaderLinks.php' ?>
 <?php include 'commonFiles/header.php' ?>
@@ -8,7 +8,9 @@
     <section class="section01 position-relative" id="section01">
         <div id="particles-js"></div>
         <div class="container">
-            <img class="worldMapImg" src="asstes/Imgs/worlddottedmap.png" alt="">
+            <div class="col-lg-5 m-auto position-absolute worldMap">
+                <div id="worldMapImg" class="worldMapImg"  data-aos="zoom-in-up" data-aos-duration="2000"></div>
+            </div>
             <div class="verticallyCenter">
                 <div class="col-lg-8">
                     <h1 data-aos="flip-up">Reshape Finance. Together.</h1>
@@ -17,7 +19,7 @@
         </div>
     </section>
 
-    <section class="section02" id="section02" data-aos="fade-up">
+    <section class="section02" id="section02">
         <div class="container-fluid">
             <div class="col-6 m-auto text-center text-light mt-5">
                 <div class="haimHeading">
@@ -28,7 +30,7 @@
         </div>
     </section>
 
-    <section class="section03" id="section03" data-aos="flip-up" data-aos-duration="2000">
+    <section class="section03" id="section03">
         <div class="container">
             <div class="col-6 mb-5 m-auto text-center text-light mt-5">
                 <div class="haimHeading text-dark">
@@ -60,7 +62,7 @@
             <div class="row">
                 <div class="col-lg-5 mt-5 mb-5 position-relative">
                     <div class="earthImg">
-                        <img src="asstes/Imgs/earthImg02.png" alt="">
+                        <div id="worldMapImg05" class="worldMapImg05"></div>
                     </div>
                 </div>
                 <div class="col-lg-5 mb-5 mt-5 pt-5 pb-5 m-auto ms-0 text-center side-text-bbg">

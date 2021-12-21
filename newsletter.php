@@ -56,17 +56,6 @@
                             <div class="newsletter card-footer pt-4 pb-4">
                                 <input type="submit" name="send" value="Subscribe" class="btn btn-secondary" />
                             </div>
-                            <div id="statusMessage">
-                                <?php
-                                if (!empty($message)) {
-                                ?>
-                                    <p class='<?php echo $type; ?>Message'>
-                                        <?php echo $message; ?>
-                                    </p>
-                                <?php
-                                }
-                                ?>
-                            </div>
                         </form>
                     </div>
                 </div>
